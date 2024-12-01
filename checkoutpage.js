@@ -46,20 +46,20 @@ const renderOrderSummary = () => {
     }
 };
 
+// Render the order summary when the page loads
+renderOrderSummary();
+
 // Restrict contact number to numeric-only input
 document.getElementById('contact').addEventListener('input', (event) => {
     const input = event.target;
     input.value = input.value.replace(/[^0-9]/g, ''); // Remove all non-numeric characters
 });
 
-// Render the order summary when the page loads
-renderOrderSummary();
-
 // Place Order Button Event Listener
 document.getElementById('place-order-btn').addEventListener('click', () => {
-    const name = document.getElementById('name').value.trim();
-    const address = document.getElementById('address').value.trim();
-    const contact = document.getElementById('contact').value.trim();
+    const name = document.getElementById('name').value;
+    const address = document.getElementById('address').value;
+    const contact = document.getElementById('contact').value;
     const paymentMethod = document.querySelector('input[name="payment"]:checked')?.value;
 
     if (name && address && contact && paymentMethod) {
@@ -71,7 +71,8 @@ document.getElementById('place-order-btn').addEventListener('click', () => {
 
         // Reset the Order Summary
         const orderItemsElement = document.getElementById('order-items');
-        orderItemsElement.innerHTML = '<p>No items in the cart.</p>'; // Clear the order items
+        orderItemsElement.innerHTML = ''; // Clear the order items
+        const totalPriceElement = document.getElementById('total-price');
         totalPriceElement.textContent = ''; // Clear the total price
 
         // Remove the query parameters from the URL to avoid showing the same cart items
@@ -79,7 +80,7 @@ document.getElementById('place-order-btn').addEventListener('click', () => {
         window.history.replaceState({}, '', url); // Replace the URL without the query parameters
 
         // Redirect to the main page (index.html)
-        window.location.href = "index.html"; // Navigate to index.html
+        window.location.href = "index.html"; // This line navigates to index.html
     } else {
         alert("Please fill in all the required details.");
     }
