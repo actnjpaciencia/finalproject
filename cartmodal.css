@@ -1,0 +1,145 @@
+/* Modal Styles */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+}
+
+/* Updated Modal Content - Dark background with a shadow */
+.modal-content {
+    background-color: #111;  /* Dark background to match product page */
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.8); /* Dark shadow for depth */
+    animation: fadeIn 0.3s ease-in-out;
+    text-align: center;
+    color: #FFF;  /* White text for better contrast */
+}
+
+/* Modal Title */
+.modal-title {
+    font-size: 1.8rem;
+    color: #FFF;  /* White title */
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Modal Radio Option */
+.radio-option {
+    display: block;
+    margin: 15px 0;
+    font-size: 1.1rem;
+    color: #CCC; /* Lighter text for the options */
+}
+
+.radio-option input {
+    margin-right: 10px;
+    transform: scale(1.2);
+}
+
+/* Cart Items */
+.cart-items {
+    margin: 20px 0;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Individual Cart Item */
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Product Name and Price */
+.cart-item-details {
+    flex-grow: 1;
+    text-align: left;
+    color: white;
+}
+
+/* Price */
+.cart-item-price {
+    font-size: 1.1rem;
+    color: black;
+    margin-left: 10px;
+}
+
+/* Cart Item Image */
+.cart-item-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+/* Submit Button */
+.submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}
+
+/* Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.cart-item-quantity-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.increment-btn,
+.decrement-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.increment-btn:hover,
+.decrement-btn:hover {
+    background-color: #45a049;
+}

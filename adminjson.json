@@ -1,0 +1,146 @@
+[
+    {
+        "id": 1,
+        "image": "Images/1.jpeg",
+        "name": "Elysian Gem",
+        "details": "A stunning gold piece that radiates elegance and sophistication.",
+        "price": "7500",
+        "inventory": 15,
+        "productCode": "ER-001"
+    },
+    {
+        "id": 2,
+        "image": "Images/2.jpeg",
+        "name": "Celestial Bijoux",
+        "details": "An exquisite collection of celestial-inspired designs crafted with precision.",
+        "price": "6200",
+        "inventory": 18,
+        "productCode": "ER-002"
+    },
+    {
+        "id": 3,
+        "image": "Images/3.jpeg",
+        "name": "Lustrous Pearl Drop",
+        "details": "A beautiful pearl drop pendant that adds a touch of luxury to any outfit.",
+        "price": "8900",
+        "inventory": 12,
+        "productCode": "ER-003"
+    },
+    {
+        "id": 4,
+        "image": "Images/4.jpeg",
+        "name": "Regal Ruby",
+        "details": "A captivating ruby piece that embodies royal elegance and charm.",
+        "price": "5300",
+        "inventory": 20,
+        "productCode": "ER-004"
+    },
+    {
+        "id": 5,
+        "image": "Images/11.jpeg",
+        "name": "Sapphire Elegance",
+        "details": "Timeless sapphire jewelry that exudes grace and sophistication.",
+        "price": "6400",
+        "inventory": 14,
+        "productCode": "RI-001"
+    },
+    {
+        "id": 6,
+        "image": "Images/22.jpeg",
+        "name": "Emerald Enchantment",
+        "details": "An enchanting emerald piece that captivates with its rich green hues.",
+        "price": "7100",
+        "inventory": 17,
+        "productCode": "RI-002"
+    },
+    {
+        "id": 7,
+        "image": "Images/33.jpeg",
+        "name": "Opal Charm Bracelet",
+        "details": "A delightful bracelet adorned with opals, perfect for any occasion.",
+        "price": 5800,
+        "inventory": 19,
+        "productCode": "RI-003"
+    },
+    {
+     	"id" :8, 
+     	"image":"Images/44.jpeg", 
+     	"name":"Diamond Eternity Band", 
+     	"details":"A timeless diamond eternity band symbolizing everlasting love.", 
+     	"price":"9000", 
+     	"inventory":"11", 
+     	"productCode":"RI-004"
+   },
+   {
+		"id" :9, 
+		"image":"Images/111.jpeg", 
+		"name":"Luxe Statement Necklace", 
+		"details":"A bold statement necklace that transforms any outfit into a masterpiece.", 
+		"price":"6700", 
+		"inventory" :16, 
+		"productCode":"BL-001"
+   },
+   {
+	    "id" :10, 
+	    "image":"Images/222.jpeg", 
+	    "name":"Gilded Gold Cuff", 
+	    "details":"An elegant gold cuff that adds a touch of glamour to your wrist.", 
+	    "price":"8100", 
+	    "inventory" :13, 
+	    "productCode":"BL-002"
+   },
+   {
+	    "id" :11, 
+	    "image":"Images/333.jpeg", 
+	    "name":"Silver Hoop Dreams", 
+	    "details":"Classic silver hoops that are a must-have for every jewelry collection.", 
+	    "price":"5400", 
+	    "inventory" :10, 
+	    "productCode":"BL-003"
+   },
+   {
+	    "id" :12, 
+	    "image":"Images/444.jpeg", 
+	    "name":"Platinum Radiance", 
+	    "details":"A radiant platinum piece that shines with unmatched brilliance.", 
+	    "price":"9500", 
+	    "inventory" :15, 
+	    "productCode":"BL-004"
+   },
+   {
+	    "id" :13, 
+	    "image":"Images/1111.jpeg", 
+	    "name":"Turquoise Beaded Bliss", 
+	    "details":"A vibrant turquoise necklace that brings joy and color to your look.", 
+	    "price":"6800", 
+	    "inventory" :17, 
+	    "productCode":"NK-001"
+   },
+   {
+	    "id" :14, 
+	    "image":"Images/2222.jpeg", 
+	    "name":"Aquamarine Serenity", 
+	    "details":"A soothing aquamarine piece that evokes tranquility and peace.", 
+	    "price":"7200", 
+	    "inventory" :14, 
+	    "productCode":"NK-002"
+   },
+   {
+	    "id" :15, 
+	    "image":"Images/3333.jpeg", 
+	    "name":"Amethyst Cluster Delight", 
+	    "details":"An eye-catching amethyst cluster that adds a pop of color to any outfit.",  
+	    "price":"6000",  
+	    "inventory" :16,  
+	    "productCode":"NK-003"
+   },
+   {
+	   "id" :16,  
+	   "image":"Images/4444.jpeg",  
+	   "name":"Citrine Glow",  
+	   "details":"A warm citrine piece that radiates positivity and energy.",  
+	   "price":"8500",   
+	   "inventory" :19,   
+	   "productCode":"NK-004"
+   }
+]

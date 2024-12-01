@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata and links to stylesheets -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to external CSS file -->
+    <!-- Link to Boxicons for social media icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <!-- Logo Section -->
+    <div class="logo">
+        <img src="" alt="">
+    </div>
+
+    <!-- Header Section with navigation -->
+    <header class="header">
+        <nav class="nav">
+            <!-- Navbar links for different sections -->
+            <a href="#Home">Home</a>
+            <a href="productpage.html">Products</a>
+            <a href="#Abouts">About</a>
+            <a href="#Contacts">Contacts</a>
+            <a href="adminpage.html">Adminpage</a>
+        </nav>
+        <!-- Social media links -->
+        <nav class="social-media">
+            <!-- Social media icons with links -->
+            <a href="https://www.facebook.com/login" target="_blank" style="--i:1;">
+                <i class='bx bxl-facebook'></i>
+            </a>
+            <a href="https://www.instagram.com" target="_blank" style="--i:2;">
+                <i class='bx bxl-instagram'></i>
+            </a>
+            <a href="https://www.twitter.com" target="_blank" style="--i:3;">
+                <i class='bx bxl-twitter'></i>
+            </a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home">
+        <div class="home-content">
+            <h1>Jewelry Shop</h1> <!-- Main title -->
+            <h3>Shine on the Holidays</h3> <!-- Subtitle -->
+            <p>Get them a gift they’ll love and wear forever</p> <!-- Description -->
+            <a class="explore">Explore our shop</a> <!-- Call to action -->
+        </div>
+    </section>
+
+    <!-- Product Section where products will be displayed dynamically -->
+    <section id="Product"> 
+        <h2 class="product-category"></h2> <!-- Placeholder for product category -->
+        <button class="pre-btn"><img src="images/arrow.png" alt=""></button> <!-- Previous button -->
+        <button class="nxt-btn"><img src="images/arrow.png" alt=""></button> <!-- Next button -->
+        <div class="product-container" id="product-container">
+            <!-- Products will be injected here dynamically -->
+        </div>
+    </section>    
+
+    <!-- About Us Section -->
+    <section id="Abouts">
+        <div class="about-container">
+            <h2 class="section-title">About Us</h2>
+            <p class="about-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus asperiores 
+                debitis vel quibusdam perferendis iure provident eius assumenda voluptatibus exercitationem, 
+                nulla rem dolores, rerum quia aliquid. Dicta cumque saepe dolor.</p> <!-- About description -->
+        </div>
+    </section>
+    
+    <!-- Contact Us Section -->
+    <section id="Contacts">
+        <div class="contact-container">
+            <h2 class="section-title">Contact Us</h2>
+            <p class="contact-description">We'd love to hear from you!</p>
+            <div class="contact-info">
+                <!-- Contact information -->
+                <p><strong>Phone:</strong> +1 234 567 890</p>
+                <p><strong>Email:</strong> support@jewelryshop.com</p>
+                <p><strong>Address:</strong> Cebu City, Philippines</p>
+            </div>
+            <div class="contact-form">
+                <h3>Send us a message:</h3>
+                <!-- Contact form -->
+                <form action="#" method="POST">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="4" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <!-- External JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
