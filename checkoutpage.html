@@ -24,9 +24,8 @@
                 </div>
                 <div class="form-group">
                     <label for="contact">Contact Number:</label>
-                    <input type="tel" id="contact" name="contact" pattern="[0-9]*" >
+                    <input type="text" id="contact" placeholder="Enter your contact number" maxlength="10" required>
                 </div>
-                
             </form>
         </div>
 
@@ -42,37 +41,4 @@
                 </div>
                 <div class="form-group">
                     <input type="radio" id="gcash" name="payment" value="Gcash Payment" required>
-                    <label for="gcash">
-                        <i class="fab fa-cc-mastercard"></i> Gcash Payment
-                    </label>
-                </div>
-                <div class="form-group">
-                    <input type="radio" id="bank" name="payment" value="Bank Payment" required>
-                    <label for="bank">
-                        <i class="fas fa-university"></i> Bank Payment
-                    </label>
-                </div>
-            </form>
-        </div>
-
-        <!-- Order Summary Section -->
-        <div class="order-summary">
-            <h2>Order Summary</h2>
-            <div id="order-items">
-                <!-- Order items will be dynamically populated here -->
-            </div>
-            <div id="total-price" class="total-cost">
-                <!-- Total price will be populated here -->
-            </div>
-        </div>
-
-        <!-- Place Order Button -->
-        <div class="place-order">
-            <button type="button" id="place-order-btn">Place Order</button>
-        </div>
-    </div>
-
-    <!-- Link to external JavaScript file -->
-    <script src="checkoutpage.js"></script>
-</body>
-</html>
+                    <label for="
